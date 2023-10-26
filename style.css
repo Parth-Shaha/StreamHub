@@ -1,0 +1,168 @@
+/* General */
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #000000;
+}
+
+/* Navigation bar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  color: #FFFFFF;
+}
+
+.nav-icon {
+  position: relative;
+  top: 5px;
+  margin: 0 9px 15px 9px;
+  color: #FFFFFF;
+}
+
+.youtube-icon {
+  color: #000000;
+}
+
+.search {
+  display: flex;
+}
+
+input {
+  width: 500px;
+  height: 75%;
+}
+
+.search-button {
+  border: 1px solid #aaa;
+  background-color: #ccc;
+  border-left-width: 0;
+  border-radius: 5px;
+}
+
+/* Flexbox container */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Main video */
+
+.video-and-comments {
+  width: 65%;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+  margin-left: 15px;
+  border: 0;
+}
+
+/* Information about video */
+
+.video-stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0 15px 15px;
+  color: #FFFFFF;
+}
+
+.title-icon {
+  margin: 5px;
+  color: #FFFFFF;
+}
+
+.video-about {
+  display: flex;
+  justify-content: space-between;
+  color: #FFFFFF;
+}
+
+figure {
+  margin-left: 10px;
+}
+
+.streamer-name {
+  display: inline;
+  position: relative;
+  bottom: 40px;
+  color: #FFFFFF;
+}
+
+.follow {
+  align-self: center;
+}
+
+.follow-button {
+  background-color: #F28500;
+  color: #;
+  padding: 5px 15px;
+  border: 1px solid #fff;
+}
+
+.video-title {
+  margin-left: 15px;
+  font-size: larger;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+hr {
+  background-color: #FFFFFF;
+  height: 1.5px;
+  border: none;
+}
+
+/* Comment section */
+
+.comment {
+  margin-left: 5px;
+  color: #FFFFFF;
+}
+
+.comment-name {
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.comment-text {
+  margin-left: 9px;
+}
+
+.comment-buttons {
+  margin-left: 9px;
+}
+
+.view-replies {
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+/*Aside bar*/
+
+aside {
+  width: 32%;
+}
+
+.recommend-video {
+  display: flex;
+  margin: 0 10px 20px 0;
+}
+
+.recommend-video-title {
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.video-info-recommend {
+  margin: 5px 0 0 5px;
+  color: #FFFFFF;
+}
+
+.creator-name {
+  line-height: 80%;
+  color: #FFFFFF;
+}
